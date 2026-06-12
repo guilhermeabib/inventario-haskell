@@ -1,0 +1,19 @@
+# Artefatos de compilacao do GHC
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Executaveis
+Main
+Main.exe
+inventario
+inventario.exe
+
+# Build de stack/cabal (caso usados)
+.stack-work/
+dist-newstyle/
+
+# NAO ignorar os arquivos de dados de exemplo (entregaveis):
+!Inventario.dat
+!Auditoria.log

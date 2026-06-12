@@ -1,0 +1,18 @@
+LogEntry {timestamp = 2026-06-08 12:00:01 UTC, acao = Add, detalhes = "Item TEC-001 (Teclado) adicionado: 10 un. [Perifericos]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:02 UTC, acao = Add, detalhes = "Item MOU-002 (Mouse) adicionado: 30 un. [Perifericos]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:03 UTC, acao = Add, detalhes = "Item MON-003 (Monitor) adicionado: 8 un. [Monitores]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:04 UTC, acao = Add, detalhes = "Item NOT-004 (Notebook) adicionado: 5 un. [Computadores]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:05 UTC, acao = Add, detalhes = "Item SSD-005 (SSD480GB) adicionado: 30 un. [Armazenamento]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:06 UTC, acao = Add, detalhes = "Item HD-006 (HD1TB) adicionado: 15 un. [Armazenamento]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:07 UTC, acao = Add, detalhes = "Item RAM-007 (Memoria8GB) adicionado: 40 un. [Componentes]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:08 UTC, acao = Add, detalhes = "Item CPU-008 (ProcessadorI5) adicionado: 12 un. [Componentes]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:09 UTC, acao = Add, detalhes = "Item GPU-009 (PlacaVideoRTX) adicionado: 6 un. [Componentes]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:00:10 UTC, acao = Add, detalhes = "Item FON-010 (Fonte650W) adicionado: 20 un. [Componentes]", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:02:00 UTC, acao = Update, detalhes = "Quantidade de MOU-002 (Mouse) atualizada de 30 para 25 un.", status = Sucesso}
+LogEntry {timestamp = 2026-06-08 12:10:00 UTC, acao = Remove, detalhes = "remove TEC-001 15", status = Falha "Estoque insuficiente para 'TEC-001': em estoque 10, solicitado 15."}
+LogEntry {timestamp = 2026-06-12 15:45:12.2435031 UTC, acao = Add, detalhes = "Item 999 (teste) adicionado: 2 un. [teste]", status = Sucesso}
+LogEntry {timestamp = 2026-06-12 15:50:22.9671031 UTC, acao = Remove, detalhes = "Removidas 2 un. de 999 (teste). Restam 0 un.", status = Sucesso}
+LogEntry {timestamp = 2026-06-12 15:51:04.9397041 UTC, acao = Update, detalhes = "Quantidade de 999 (teste) atualizada de 0 para 5 un.", status = Sucesso}
+LogEntry {timestamp = 2026-06-12 15:59:51.3967456 UTC, acao = QueryFail, detalhes = "Consulta ao item 1", status = Falha "Item '1' nao encontrado."}
+LogEntry {timestamp = 2026-06-12 16:53:04.2499989 UTC, acao = Add, detalhes = "Item 001 (teste2) adicionado: 200 un. [teste]", status = Sucesso}
+LogEntry {timestamp = 2026-06-12 16:55:45.2915562 UTC, acao = Remove, detalhes = "Removidas 50 un. de 001 (teste2). Restam 150 un.", status = Sucesso}
